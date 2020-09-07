@@ -4,16 +4,16 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 
 # Arcade Apps
 
-- **Authentication** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Authentication]
-- **Calendar Picker** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Calendar%20Picker]
-- **Highlight Tabs** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Highlight%20Tabs]
-- **Infinite Image Gallery** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Infinite%20Image%20Gallery]
-- **Markdown Editor** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Markdown%20Editor]
-- **Moving Boxes and Zelda** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Moving%20Boxes%20and%20Zelda]
-- **Paper Rock Scissors** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Paper%20Rock%20Scissors]
-- **Pomodoro** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Pomodoro]
-- **Trivia** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Trivia]
-- **Web Speech and Timers** (Learn More)[https://github.com/moisestech/react-hooks-arcade/tree/master/Web%20Speech%20and%20Timers]
+- **Authentication** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Authentication)
+- **Calendar Picker** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Calendar%20Picker)
+- **Highlight Tabs** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Highlight%20Tabs)
+- **Infinite Image Gallery** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Infinite%20Image%20Gallery)
+- **Markdown Editor** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Markdown%20Editor)
+- **Moving Boxes and Zelda** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Moving%20Boxes%20and%20Zelda)
+- **Paper Rock Scissors** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Paper%20Rock%20Scissors)
+- **Pomodoro** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Pomodoro)
+- **Trivia** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Trivia)
+- **Web Speech and Timers** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Web%20Speech%20and%20Timers)
 
 # Application Tree
 
