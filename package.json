@@ -1,0 +1,58 @@
+{
+  "name": "react-hooks-arcade",
+  "version": "1.0.0",
+  "description": "React Hooks Arcade - showcasing a variety of application concepts through interactivity",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV === 'production' webpack"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/syntax-dynamic-import"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisestech/react-hooks-arcade.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "ReactHooks",
+    "Arcade",
+    "ES6"
+  ],
+  "author": "Moises Sanabria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moisestech/react-hooks-arcade/issues"
+  },
+  "homepage": "https://github.com/moisestech/react-hooks-arcade#readme",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-dom": "16.13.1",
+    "prop-types": "15.7.2",
+    "copy-webpack-plugin": "^6.1.0",
+    "npm": "6.14.8"
+  },
+  "devDependencies": {
+    "@babel/core": "",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
