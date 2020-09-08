@@ -1,4 +1,4 @@
-# Trivia
+# Trivia 📖
 
 We will pull trivia questions from [Open Trivia Database](https://opentdb.com) and use them to create a Trivia game.
 

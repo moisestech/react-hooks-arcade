@@ -1,4 +1,4 @@
-# Moving Boxes and Zelda
+# Moving Boxes and Zelda ⚔️
 
 We'll use HTML canvas to draw a Link. We'll move.
 

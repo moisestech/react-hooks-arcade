@@ -1,4 +1,4 @@
-# Markdown Editor
+# Markdown Editor 💻
 
 Real-time markdown previewer.
 

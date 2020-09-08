@@ -1,4 +1,4 @@
-# Paper Rock Scissors
+# Paper Rock Scissors ✂️
 
 Lots of tools component work within this app to build a Paper, Rock, Scissors game.
 

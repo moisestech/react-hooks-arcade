@@ -1,4 +1,4 @@
-# Highlight Tabs
+# Highlight Tabs 🎫
 
 Using mouse movement to highlight tabs and Route between tabs.
 
