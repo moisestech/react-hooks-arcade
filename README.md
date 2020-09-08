@@ -117,3 +117,7 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 │   └── index.js
 └── webpack.config.js
 ```
+
+### To-Do
+
+- Highlight active navigation on NavBar Component
