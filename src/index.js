@@ -4,8 +4,9 @@ import "./index.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 
-import Home from "./components/Apps/Home";
-import NotFound from "./components/Apps/NotFound";
+import Home from "./components/Pages/Home";
+import NotFound from "./components/Pages/NotFound";
+
 import Pomodoro from "./components/Apps/Pomodoro";
 import MarkdownEditor from "./components/Apps/MarkdownEditor";
 import HighlightTabs from "./components/Apps/HighlightTabs";
