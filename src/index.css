@@ -1,0 +1,138 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: white;
+  color: white;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+/* APP */
+
+.app {
+  margin: 0;
+  display: flex;
+}
+
+.app-body {
+  margin: 0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-body h1 {
+  color: black;
+}
+
+/* NAV BAR */
+
+.navbar {
+  max-width: 200px;
+  font-size: 16px;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  font-weight: bold;
+  height: 100vh;
+  background: white;
+  border-right: 1px solid black;
+}
+
+.navbar h1 {
+  color: black;
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 15px 10px 5px 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar h1:hover {
+  color: #0185fe;
+}
+
+.navbar .app-list-header {
+  text-transform: uppercase;
+  color: #0185fe;
+  font-size: 0.7em;
+  margin: 10px;
+}
+
+.nav-links {
+  padding: 0px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  min-height: 60px;
+}
+
+.nav-links:hover {
+  background: ghostwhite;
+}
+
+.nav-links .icon {
+  width: 50px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links .nav-app-info {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.nav-links .nav-app-info .title {
+  display: flex;
+  align-items: start;
+  font-size: 0.9em;
+  margin: 10px 5px 5px 5px;
+  font-weight: normal;
+  color: black;
+}
+
+.nav-links .nav-app-info .info {
+  font-size: 0.7em;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
