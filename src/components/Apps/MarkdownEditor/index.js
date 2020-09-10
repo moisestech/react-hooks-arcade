@@ -1,9 +1,34 @@
 import * as React from "react";
+import marked from "marked";
+import ReactMarkdown from "react-markdown";
+import "./index.css";
 
 export default function MarkdownEditor() {
+  const [markdown, setMarkdown] = React.useState("# type here");
+
+  function handleTextChange(e) {
+    setMarkdown(e.target.value);
+  }
+
   return (
-    <div className="app-body">
-      <h1>Markdown Editor</h1>
+    <div className="markdown-editor app-body">
+      <textarea onChange={handleTextChange} value={markdown} />
+
+      {/* <div
+        className="preview"
+        dangerouslySetInnerHTML={{ __html: marked(markdown) }}
+      /> */}
+
+      <ReactMarkdown className="preview" source={markdown} />
     </div>
   );
 }
+
+// To-Do
+// - Show Placeholder markdown text until there is markdown
+// - Disable textarea resizing
+// - Display info HowTo Markdown
+// - Markdown for Mobile version
+
+// Learn
+// UI.dev - controlled vs uncontrolled components
