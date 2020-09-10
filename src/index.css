@@ -19,7 +19,7 @@ body {
   padding: 0;
   min-height: 100vh;
   background: white;
-  color: white;
+  color: black;
 }
 
 a {
@@ -80,7 +80,7 @@ ul {
   color: black;
   font-size: 1.5em;
   line-height: 1;
-  margin: 15px 10px 5px 10px;
+  margin: 15px 0 5px 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid lightgray;
 }
@@ -89,25 +89,26 @@ ul {
   color: #0185fe;
 }
 
-.navbar .app-list-header {
+.navbar > a:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar > a:first-child .app-list-header {
   text-transform: uppercase;
   color: #0185fe;
   font-size: 0.7em;
   margin: 10px;
 }
 
-.nav-links {
+.navbar > a {
   padding: 0px 10px 0px 0px;
   display: flex;
   flex-direction: row;
   min-height: 60px;
 }
 
-.nav-links:hover {
-  background: ghostwhite;
-}
-
-.nav-links .icon {
+.navbar > a .icon {
   width: 50px;
   font-size: 2em;
   display: flex;
@@ -115,14 +116,14 @@ ul {
   align-items: center;
 }
 
-.nav-links .nav-app-info {
+.navbar > a .nav-app-info {
   border-bottom: 1px solid lightgray;
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 
-.nav-links .nav-app-info .title {
+.navbar > a .nav-app-info .title {
   display: flex;
   align-items: start;
   font-size: 0.9em;
@@ -131,9 +132,193 @@ ul {
   color: black;
 }
 
-.nav-links .nav-app-info .info {
+.navbar > a .nav-app-info .info {
   font-size: 0.7em;
   font-weight: normal;
   margin-bottom: 10px;
   margin-left: 5px;
+}
+
+/* NAV BAR HOVER */
+
+.navbar > a:hover {
+  background: ghostwhite;
+  transition: 0.3s ease all;
+}
+
+.navbar > a:hover .nav-app-info .title {
+  color: black;
+}
+
+.navbar > a:hover .nav-app-info .info {
+  color: gray;
+}
+
+/* NAV BAR ACTIVE HOVER */
+
+.navbar > a.is-active:hover {
+  background: #0185fe;
+  transition: 0.3s ease all;
+}
+
+.navbar > a.is-active:hover .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active:hover .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR IS ACTIVE */
+
+.navbar > a.is-active {
+  background: #0185fe;
+}
+
+.navbar > a.is-active .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR - POMODORO */
+
+.navbar > a.is-active.pomodoro {
+  background: #87d7cc;
+}
+
+.navbar > a.is-active.pomodoro .nav-app-info .title {
+  color: black;
+}
+
+.navbar > a.is-active.pomodoro .nav-app-info .info {
+  color: gray;
+}
+
+/* NAV BAR — MARKDOWN EDITOR */
+
+.navbar > a.is-active.markdown-editor {
+  background: #eff1f5;
+}
+
+.navbar > a.is-active.markdown-editor .nav-app-info .title {
+  color: black;
+}
+
+.navbar > a.is-active.markdown-editor .nav-app-info .info {
+  color: gray;
+}
+
+/* NAV BAR - HIGHLIGHT TABS */
+
+.navbar > a.is-active.highlight-tabs {
+  background: #634cec;
+}
+
+.navbar > a.is-active.highlight-tabs .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active.highlight-tabs .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR - PAPER ROCK SCISSORS */
+
+.navbar > a.is-active.paper-rock-scissors {
+  background: #478aef;
+}
+
+.navbar > a.is-active.paper-rock-scissors .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active.paper-rock-scissors .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR - MOVING BOXES ZELDA */
+
+.navbar > a.is-active.moving-boxes-zelda {
+  background: rgba(43, 159, 75, 1);
+}
+
+.navbar > a.is-active.moving-boxes-zelda .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active.moving-boxes-zelda .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR - INFINITE IMAGE GALLERY */
+
+.navbar > a.is-active.infinite-image-gallery {
+  background: #dcdcdc;
+}
+
+.navbar > a.is-active.infinite-image-gallery .nav-app-info .title {
+  color: black;
+}
+
+.navbar > a.is-active.infinite-image-gallery .nav-app-info .info {
+  color: gray;
+}
+
+/* NAV BAR - TRIVIA */
+
+.navbar > a.is-active.trivia {
+  background: #c7e8d9;
+}
+
+.navbar > a.is-active.trivia .nav-app-info .title {
+  color: black;
+}
+
+.navbar > a.is-active.trivia .nav-app-info .info {
+  color: gray;
+}
+
+/* NAV BAR - AUTHENTICATION */
+
+.navbar > a.is-active.authentication {
+  background-color: #104826;
+}
+
+.navbar > a.is-active.authentication .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active.authentication .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR - WEB SPEECH TIMERS */
+
+.navbar > a.is-active.web-speech-timers {
+  background: #1f1f1f;
+}
+
+.navbar > a.is-active.web-speech-timers .nav-app-info .title {
+  color: white;
+}
+
+.navbar > a.is-active.web-speech-timers .nav-app-info .info {
+  color: lightgray;
+}
+
+/* NAV BAR - CALENDAR PICKER */
+
+.navbar > a.is-active.calendar-picker {
+  background: #d6e3f8;
+}
+
+.navbar > a.is-active.calendar-picker .nav-app-info .title {
+  color: black;
+}
+
+.navbar > a.is-active.calendar-picker .nav-app-info .info {
+  color: gray;
 }
