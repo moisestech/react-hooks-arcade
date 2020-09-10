@@ -11,3 +11,20 @@ Lots of tools component work within this app to build a Paper, Rock, Scissors ga
 - React rendering
 - Parent and child components
 - React events
+- Handle user choice event listener
+- Conditionally render a component based on separate data.
+
+### Learn
+
+- UI.dev useEffect()
+- useReducer()
+- pass down components as children
+- pass down function as props
+
+### To-Do
+
+- Choices, GameState, WinsLosses Components
+- Hand Recognition Rock, Paper, Scissors
+- Animate computer option chosen
+- Style You & Computer Choose Layout
+- CSS "You Chose", "Computer Chose" in <Results/>
