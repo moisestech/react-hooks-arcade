@@ -7,4 +7,10 @@ Real-time markdown previewer.
 # React skills used in this app
 
 - React state w/ useState()
-- 3rd Party Packages
+- 3rd Party Packages [MarkedJS](https://github.com/markedjs/marked) - [Docs](https://marked.js.org/)
+- DangerouslySetInnerHtml - [Docs](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
+- Declarative Programming
+
+### Questions
+
+- How do I load new bundles w/ NPM pkgs for a specific route?
