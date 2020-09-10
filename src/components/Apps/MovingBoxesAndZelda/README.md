@@ -10,3 +10,8 @@ We'll use HTML canvas to draw a Link. We'll move.
 - React state w/ useState()
 - React effects w/ useEffect()
 - Custom React Hook
+
+### Learn
+
+- highlighted text lowercase key shortcut vscode
+- add PropTypes
