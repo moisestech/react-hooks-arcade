@@ -23,12 +23,3 @@ export default function MarkdownEditor() {
     </div>
   );
 }
-
-// To-Do
-// - Show Placeholder markdown text until there is markdown
-// - Disable textarea resizing
-// - Display info HowTo Markdown
-// - Markdown for Mobile version
-
-// Learn
-// UI.dev - controlled vs uncontrolled components
