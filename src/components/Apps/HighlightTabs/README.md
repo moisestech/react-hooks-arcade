@@ -8,5 +8,14 @@ Using mouse movement to highlight tabs and Route between tabs.
 
 - React Router
 - React state w/ useState()
-- React effects w/ useEffect()
 - Hover events
+- onMouseMove Synthetic event
+- NavLink activeClassName prop
+
+### Error
+
+- http://localhost:8080/highlight-tabs/index_bundle.js net::ERR_ABORTED 404 (Not Found)
+
+### Learn
+
+- UI.dev activeClassName version
