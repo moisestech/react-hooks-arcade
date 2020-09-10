@@ -34,12 +34,14 @@
   },
   "homepage": "https://github.com/moisestech/react-hooks-arcade#readme",
   "dependencies": {
-    "react": "16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-dom": "16.13.1",
-    "prop-types": "15.7.2",
     "copy-webpack-plugin": "^6.1.0",
-    "npm": "6.14.8"
+    "marked": "^1.1.1",
+    "npm": "6.14.8",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "",
