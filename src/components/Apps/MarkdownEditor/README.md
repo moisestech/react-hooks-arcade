@@ -14,3 +14,14 @@ Real-time markdown previewer.
 ### Questions
 
 - How do I load new bundles w/ NPM pkgs for a specific route?
+
+### To-Do
+
+- Show Placeholder markdown text until there is markdown
+- Disable textarea resizing
+- Display info HowTo Markdown
+- Markdown for Mobile version
+
+### Learn
+
+- UI.dev - controlled vs uncontrolled components
