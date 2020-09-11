@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   cursor: url("https://i.imgur.com/NBIhMDc.png"), auto;
+  flex-direction: column;
 }
 
 .authentication h1,
@@ -17,13 +18,10 @@
 
 .authentication .site-header {
   margin-bottom: auto;
-  position: fixed;
   width: 100%;
-  left: 0;
-  right: 0;
-  top: 0;
   text-align: center;
   display: flex;
+  flex: 1;
   justify-content: space-between;
   padding: 10px 20px;
   background: rgba(255, 255, 255, 0.2);
@@ -56,6 +54,7 @@
   background-color: #104826;
   background-image: url("https://images.unsplash.com/photo-1505990941976-fa5c0b5a43f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
+  width: 100%;
 }
 
 .authentication .page > div {
