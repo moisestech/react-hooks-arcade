@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./index.css";
 import useMovement from "./hooks/useMovement";
 
-export default function MovingBoxesZelda() {
+export default function AdventureLink() {
   const canvasRef = useRef(null);
   const linkDownRef = useRef(null);
   const linkUpRef = useRef(null);
@@ -33,7 +33,7 @@ export default function MovingBoxesZelda() {
   }, [x, y]);
 
   return (
-    <div className="moving-boxes-zelda app-body">
+    <div className="adventure-link app-body">
       <canvas ref={canvasRef} />
 
       <div className="arrows">
