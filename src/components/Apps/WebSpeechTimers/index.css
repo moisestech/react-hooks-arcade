@@ -13,9 +13,9 @@
 }
 
 @media (min-width: 1280px) {
-  .web-speech-timer.app-body {
+  /* .web-speech-timer.app-body {
     max-width: 50%;
-  }
+  } */
 }
 
 .web-speech-timer h1,
