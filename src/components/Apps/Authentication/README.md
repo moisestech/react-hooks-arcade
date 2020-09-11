@@ -12,3 +12,14 @@ We'll handle authentication (something many production apps need). We'll integra
 - Custom React Hook
 - React Router
 - Protecting certain routes
+
+### App Tree
+
+```bash
+Authentication
+├── README.md
+├── components
+├── index.css
+├── index.js
+└── public
+```
