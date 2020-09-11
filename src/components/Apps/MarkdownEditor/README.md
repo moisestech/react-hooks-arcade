@@ -25,3 +25,14 @@ Real-time markdown previewer.
 ### Learn
 
 - UI.dev - controlled vs uncontrolled components
+
+### App Tree
+
+```bash
+MarkdownEditor
+├── README.md
+├── index.css
+├── index.js
+└── public
+    └── markdown-editor.gif
+```
