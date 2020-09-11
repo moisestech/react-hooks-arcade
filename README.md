@@ -43,96 +43,14 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 │   ├── components
 │   │   ├── Apps
 │   │   │   ├── Authentication
-│   │   │   │   ├── README.md
-│   │   │   │   ├── components
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
 │   │   │   ├── CalendarPicker
-│   │   │   │   ├── README.md
-│   │   │   │   ├── components
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
-│   │   │   │       └── calendar-picker.gif
 │   │   │   ├── HighlightTabs
-│   │   │   │   ├── README.md
-│   │   │   │   ├── RoutesView
-│   │   │   │   │   └── index.js
-│   │   │   │   ├── components
-│   │   │   │   │   ├── Header
-│   │   │   │   │   │   └── index.js
-│   │   │   │   │   └── Tab
-│   │   │   │   │       └── index.js
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   ├── pages
-│   │   │   │   │   ├── About
-│   │   │   │   │   │   └── index.js
-│   │   │   │   │   ├── Features
-│   │   │   │   │   │   └── index.js
-│   │   │   │   │   └── Home
-│   │   │   │   │       └── index.js
-│   │   │   │   └── public
-│   │   │   │       └── highlight-tabs.gif
 │   │   │   ├── InfiniteImageGallery
-│   │   │   │   ├── README.md
-│   │   │   │   ├── components
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
 │   │   │   ├── MarkdownEditor
-│   │   │   │   ├── README.md
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
-│   │   │   │       └── markdown-editor.gif
 │   │   │   ├── MovingBoxesAndZelda
-│   │   │   │   ├── README.md
-│   │   │   │   ├── components
-│   │   │   │   ├── hooks
-│   │   │   │   │   └── useMovement.js
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
-│   │   │   │       └── moving-boxes-zelda.gif
-│   │   │   ├── PaperRockScissors
-│   │   │   │   ├── README.md
-│   │   │   │   ├── components
-│   │   │   │   │   ├── Choices
-│   │   │   │   │   │   └── index.js
-│   │   │   │   │   ├── Result
-│   │   │   │   │   │   └── index.js
-│   │   │   │   │   └── ScoreBoard
-│   │   │   │   │       └── index.js
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   ├── public
-│   │   │   │   │   ├── icons
-│   │   │   │   │   │   ├── Paper.js
-│   │   │   │   │   │   ├── Rock.js
-│   │   │   │   │   │   └── Scissors.js
-│   │   │   │   │   └── paper-rock-scissors.gif
-│   │   │   │   └── utils
-│   │   │   │       └── ChoicesArray.js
 │   │   │   ├── Pomodoro
-│   │   │   │   ├── README.md
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
-│   │   │   │       └── pomodoro.gif
 │   │   │   ├── Trivia
-│   │   │   │   ├── README.md
-│   │   │   │   ├── index.css
-│   │   │   │   ├── index.js
-│   │   │   │   └── public
-│   │   │   │       └── trivia.gif
 │   │   │   └── WebSpeechAndTimers
-│   │   │       ├── README.md
-│   │   │       ├── index.css
-│   │   │       ├── index.js
-│   │   │       └── public
-│   │   │           └── web-speech-timers.gif
 │   │   ├── Nav
 │   │   │   ├── components
 │   │   │   │   └── AppBtnInfo
@@ -157,6 +75,7 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 - Add Menu Icon
 - NavBar Dark/Light Theme
 - Loading Component between Apps
+- Add Home Styling Header
 - Animate Routes
 - React Suspense
 - React.lazy for Code Splitting
