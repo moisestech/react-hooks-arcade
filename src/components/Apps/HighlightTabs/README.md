@@ -19,3 +19,28 @@ Using mouse movement to highlight tabs and Route between tabs.
 ### Learn
 
 - UI.dev activeClassName version
+
+### App Tree
+
+```bash
+HighlightTabs
+├── README.md
+├── RoutesView
+│   └── index.js
+├── components
+│   ├── Header
+│   │   └── index.js
+│   └── Tab
+│       └── index.js
+├── index.css
+├── index.js
+├── pages
+│   ├── About
+│   │   └── index.js
+│   ├── Features
+│   │   └── index.js
+│   └── Home
+│       └── index.js
+└── public
+    └── highlight-tabs.gif
+```
