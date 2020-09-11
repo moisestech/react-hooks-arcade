@@ -6,6 +6,18 @@ Let's build a calendar picker and use some logic to handle choosing a start and 
 
 ### React skills used in this app
 
-- CSS-in-JS: styled-components
+- CSS-in-JS: [styled-components](https://styled-components.com/)
 - React state w/ useState()
 - Component communication
+
+### App Tree
+
+```bash
+CalendarPicker
+├── README.md
+├── components
+├── index.css
+├── index.js
+└── public
+    └── calendar-picker.gif
+```
