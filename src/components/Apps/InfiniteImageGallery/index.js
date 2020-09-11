@@ -1,8 +1,9 @@
 import * as React from "react";
+import "./index.css";
 
 export default function InfiniteImageGallery() {
   return (
-    <div className="app-body">
+    <div className="infinite-image-gallery app-body">
       <h1>Unplash Image Gallery</h1>
 
       <form>
