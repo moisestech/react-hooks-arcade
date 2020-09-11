@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
 
 .infinite-image-gallery.app-body {
+  margin: 0;
+  padding: 0;
   text-align: center;
   min-height: 100vh;
   background: #dcdcdc;
   padding: 100px 50px;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
   font-family: "Comfortaa", Arial, Helvetica, sans-serif;
 }
 
