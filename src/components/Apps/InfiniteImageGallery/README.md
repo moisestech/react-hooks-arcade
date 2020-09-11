@@ -19,3 +19,14 @@ We'll build an image gallery by pulling images from [Unsplash](https://unsplash.
 - Able to edit image.
 - Able to see who post it the image.
 - click image gallery in new route url
+
+### Tree
+
+```bash
+InfiniteImageGallery
+├── README.md
+├── components
+├── index.css
+├── index.js
+└── public
+```
