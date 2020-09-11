@@ -28,11 +28,11 @@ export default [
     info: "Classic Game",
   },
   {
-    to: "/moving-boxes-zelda",
-    className: "moving-boxes-zelda",
-    title: "Moving Boxes Zelda",
+    to: "/adventure-link",
+    className: "adventure-link",
+    title: "Adventure Link",
     icon: "⚔️",
-    info: "Adventure Game",
+    info: "Open World Game",
   },
   {
     to: "/infinite-image-gallery",
