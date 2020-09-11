@@ -11,12 +11,15 @@ import Pomodoro from "./components/Apps/Pomodoro";
 import MarkdownEditor from "./components/Apps/MarkdownEditor";
 import HighlightTabs from "./components/Apps/HighlightTabs";
 import PaperRockScissors from "./components/Apps/PaperRockScissors";
-import MovingBoxesZelda from "./components/Apps/MovingBoxesAndZelda";
+import AdventureLink from "./components/Apps/AdventureLink";
 import InfiniteImageGallery from "./components/Apps/InfiniteImageGallery";
 import Trivia from "./components/Apps/Trivia";
 import Authentication from "./components/Apps/Authentication";
-import WebSpeechTimers from "./components/Apps/WebSpeechAndTimers";
+import WebSpeechTimers from "./components/Apps/WebSpeechTimers";
 import CalendarPicker from "./components/Apps/CalendarPicker";
+
+// import AnimatedChat from "./components/Apps/AnimatedChat";
+// import MultiForm from './components/Apps/MultiForm'
 
 function App() {
   return (
@@ -45,8 +48,8 @@ function App() {
             <PaperRockScissors />
           </Route>
 
-          <Route path="/moving-boxes-zelda">
-            <MovingBoxesZelda />
+          <Route path="/adventure-link">
+            <AdventureLink />
           </Route>
 
           <Route path="/infinite-image-gallery">
@@ -68,6 +71,10 @@ function App() {
           <Route path="/calendar-picker">
             <CalendarPicker />
           </Route>
+
+          {/* <Route path="/animated-chat">
+            <AnimatedChat />
+          </Route> */}
 
           <Route path="*">
             <NotFound />
