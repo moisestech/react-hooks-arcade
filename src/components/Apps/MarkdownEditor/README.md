@@ -2,6 +2,7 @@
 
 Real-time markdown previewer.
 
+[View Demo]()
 <img width="400" src="https://github.com/moisestech/react-hooks-arcade/blob/master/src/components/Apps/MarkdownEditor/public/markdown-editor.gif">
 
 # React skills used in this app
@@ -10,21 +11,6 @@ Real-time markdown previewer.
 - 3rd Party Packages [MarkedJS](https://github.com/markedjs/marked) - [Docs](https://marked.js.org/)
 - DangerouslySetInnerHtml - [Docs](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
 - Declarative Programming
-
-### Questions
-
-- How do I load new bundles w/ NPM pkgs for a specific route?
-
-### To-Do
-
-- Show Placeholder markdown text until there is markdown
-- Disable textarea resizing
-- Display info HowTo Markdown
-- Markdown for Mobile version
-
-### Learn
-
-- UI.dev - controlled vs uncontrolled components
 
 ### App Tree
 
@@ -36,3 +22,18 @@ MarkdownEditor
 └── public
     └── markdown-editor.gif
 ```
+
+### Todo
+
+- Show Placeholder markdown text until there is markdown
+- Disable textarea resizing
+- Display info HowTo Markdown
+- Markdown for Mobile version
+
+### Learn
+
+- UI.dev - controlled vs uncontrolled components
+
+### Questions
+
+- How do I load new bundles w/ NPM pkgs for a specific route?
