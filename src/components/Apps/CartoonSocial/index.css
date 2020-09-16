@@ -1,0 +1,63 @@
+.cartoon-social.app-body {
+  font-family: sans-serif;
+  margin: 50px auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cartoon-social h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cartoon-social ul {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.cartoon-social li {
+  list-style: none;
+}
+
+.cartoon-social li:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.cartoon-social img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.cartoon-social li .char-description {
+  padding: 10px;
+}
+
+.cartoon-social li .char-name {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.cartoon-social li .char-info {
+  font-size: 0.7em;
+  margin-top: 5px;
+}
+
+.cartoon-social button {
+  width: auto;
+  padding: 0;
+  display: block;
+  margin: 10px 0 10px;
+  cursor: pointer;
+  padding: 2px 15px;
+  color: brown;
+  border-radius: 25px;
+  font-size: 0.7em;
+}
