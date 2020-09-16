@@ -8,7 +8,6 @@ const calendarDates = Array(31)
 export default function CalendarPicker() {
   return (
     <div className="calendar-picker app-body">
-      <h1>Calendar Picker</h1>
       <div className="date-chooser">
         <button className="date-chooser-button">
           Start Date <span>0</span>
@@ -21,7 +20,11 @@ export default function CalendarPicker() {
 
       <div className="calendar">
         {calendarDates.map((day, index) => {
-          return <div className="calendar-day">{day + 1}</div>;
+          return (
+            <div key="index" className="calendar-day">
+              {day + 1}
+            </div>
+          );
         })}
       </div>
     </div>
