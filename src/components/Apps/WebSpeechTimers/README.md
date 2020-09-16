@@ -2,9 +2,10 @@
 
 We'll use the browser's [SpeechSynthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) to create a timer that speaks to us.
 
+[View Demo]()
 <img width="400" src="https://github.com/moisestech/react-hooks-arcade/blob/master/src/components/Apps/WebSpeechAndTimers/public/web-speech-timers.gif">
 
-### React skills used in this app
+# React skills used in this app
 
 - Creating timers
 - Browser [SpeechSyntesis API]
@@ -25,3 +26,15 @@ WebSpeechAndTimers
 └── public
     └── web-speech-timers.gif
 ```
+
+### Todo
+
+-
+
+### Learn
+
+-
+
+### Questions
+
+-
