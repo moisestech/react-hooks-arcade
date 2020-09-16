@@ -17,6 +17,7 @@ import Trivia from "./components/Apps/Trivia";
 import Authentication from "./components/Apps/Authentication";
 import WebSpeechTimers from "./components/Apps/WebSpeechTimers";
 import CalendarPicker from "./components/Apps/CalendarPicker";
+import CartoonSocial from "./components/Apps/CartoonSocial";
 
 // import AnimatedChat from "./components/Apps/AnimatedChat";
 // import MultiForm from './components/Apps/MultiForm'
@@ -70,6 +71,10 @@ function App() {
 
           <Route path="/calendar-picker">
             <CalendarPicker />
+          </Route>
+
+          <Route path="/cartoon-social">
+            <CartoonSocial />
           </Route>
 
           {/* <Route path="/animated-chat">
