@@ -74,6 +74,7 @@ ul {
   height: 100vh;
   background: white;
   border-right: 1px solid black;
+  overflow: scroll;
 }
 
 .navbar h1 {
@@ -89,9 +90,12 @@ ul {
   color: #0185fe;
 }
 
+/* LOGO HEADER */
+
 .navbar > a:first-child {
   display: flex;
   flex-direction: column;
+  min-height: 115px;
 }
 
 .navbar > a:first-child .app-list-header {
@@ -101,11 +105,15 @@ ul {
   margin: 10px;
 }
 
+.navbar > a:first-child.is-active .app-list-header {
+  color: white;
+}
+
 .navbar > a {
   padding: 0px 10px 0px 0px;
   display: flex;
   flex-direction: row;
-  min-height: 60px;
+  min-height: 70px;
 }
 
 .navbar > a .icon {
