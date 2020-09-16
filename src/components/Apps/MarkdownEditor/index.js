@@ -1,5 +1,4 @@
 import * as React from "react";
-import marked from "marked";
 import ReactMarkdown from "react-markdown";
 import "./index.css";
 
