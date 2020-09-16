@@ -21,7 +21,7 @@ export default function CalendarPicker() {
       <div className="calendar">
         {calendarDates.map((day, index) => {
           return (
-            <div key="index" className="calendar-day">
+            <div key={index} className="calendar-day">
               {day + 1}
             </div>
           );
