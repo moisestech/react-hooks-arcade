@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 
-.web-speech-timer.app-body {
+.web-speech-timers.app-body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -13,17 +13,17 @@
 }
 
 @media (min-width: 1280px) {
-  /* .web-speech-timer.app-body {
+  /* .web-speech-timers.app-body {
     max-width: 50%;
   } */
 }
 
-.web-speech-timer h1,
-.web-speech-timer h2,
-.web-speech-timer h3,
-.web-speech-timer h4,
-.web-speech-timer h5,
-.web-speech-timer h6 {
+.web-speech-timers h1,
+.web-speech-timers h2,
+.web-speech-timers h3,
+.web-speech-timers h4,
+.web-speech-timers h5,
+.web-speech-timers h6 {
   font-family: "Luckiest Guy";
   color: #fbca17;
   font-size: 60px;
@@ -33,15 +33,15 @@
   letter-spacing: 3px;
 }
 
-.web-speech-timer .timers {
+.web-speech-timers .timers {
   margin-bottom: 50px;
 }
 
-.web-speech-timer .timer {
+.web-speech-timers .timer {
   display: flex;
 }
 
-.web-speech-timer input {
+.web-speech-timers input {
   background: #444;
   color: #eee;
   border: none;
@@ -52,16 +52,16 @@
   border-radius: 5px;
 }
 
-.web-speech-timer input[type="number"] {
+.web-speech-timers input[type="number"] {
   width: 100px;
   flex-shrink: 1;
 }
 
-.web-speech-timer input[type="text"] {
+.web-speech-timers input[type="text"] {
   flex-grow: 1;
 }
 
-.web-speech-timer button {
+.web-speech-timers button {
   border-radius: 5px;
   border: none;
   outline: none;
@@ -69,7 +69,7 @@
   cursor: pointer;
 }
 
-.web-speech-timer .add-button {
+.web-speech-timers .add-button {
   background: #555;
   color: #999;
   margin-top: 10px;
@@ -77,27 +77,27 @@
   padding: 10px 20px;
 }
 
-.web-speech-timer .buttons {
+.web-speech-timers .buttons {
   display: flex;
   align-items: center;
 }
 
-.web-speech-timer .buttons button {
+.web-speech-timers .buttons button {
   font-size: 21px;
   padding: 25px 45px;
 }
 
-.web-speech-timer .start-button {
+.web-speech-timers .start-button {
   background: #2f855a;
   color: #aedac4;
 }
 
-.web-speech-timer .stop-button {
+.web-speech-timers .stop-button {
   background: #c53030;
   color: #f0c0c0;
 }
 
-.web-speech-timer .buttons p {
+.web-speech-timers .buttons p {
   font-size: 16px;
   color: #555;
 }
