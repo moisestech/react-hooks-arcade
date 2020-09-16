@@ -3,7 +3,7 @@ import "./index.css";
 
 export default function WebSpeechTimers() {
   return (
-    <div className="web-speech-timer app-body">
+    <div className="web-speech-timers app-body">
       <h2>Talk the Talk</h2>
 
       <div className="timers">
