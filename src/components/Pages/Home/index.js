@@ -7,7 +7,7 @@ import Carousel from "./components/Carousel";
 export default function Home() {
   return (
     <div className="app-body">
-      <Carousel />
+      {/* <Carousel /> */}
       <ul className="home-feed">
         {NavBarArray.map((nav, index) => {
           return (
