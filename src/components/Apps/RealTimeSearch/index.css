@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+.realtime-search h1,
+.realtime-search h2,
+.realtime-search h3,
+.realtime-search h4,
+.realtime-search h5,
+.realtime-search h6 {
+  font-weight: 700;
+}
+
+.realtime-search.app-body {
+  margin: 0
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d7e5f9;
+  font-family: 'Nunito', sans-serif;
+}
+
+.realtime-search .search-container {
+  background: #4f46b5;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+}
+
+.realtime-search .ais-Stats {
+  text-align: right;
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.realtime-search .ais-SearchBox-form {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.realtime-search .ais-SearchBox-form input[type='search'] {
+  background: #383186;
+  border-radius: 10px;
+  padding: 20px 20px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 28px;
+  color: #eee;
+}
+
+.realtime-search .ais-SearchBox-submit,
+.realtime-search .ais-SearchBox-reset {
+  display: none;
+}
+
+.realtime-search .ais-Hits-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.realtime-search .ais-Hits-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 780px) {
+  .realtime-search .ais-Hits-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.realtime-search .ais-Pagination-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.realtime-search .ais-Pagination-item {
+  flex: 1;
+}
+
+.realtime-search .ais-Pagination-link {
+  display: block;
+  padding: 15px 20px;
+  background: #383186;
+  color: #b3afde;
+  text-decoration: none;
+  text-align: center;
+}
+
+.realtime-search .ais-Pagination-link:hover {
+  background: #251f61;
+  color: #eee;
+}
+
+.realtime-search .product {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px 30px;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #383186;
+}
+
+.realtime-search .product > div:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.realtime-search .product img {
+  max-width: 100px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.realtime-search .product h3 {
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 0 0 5px;
+}
+
+.realtime-search .product h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.realtime-search .product h2 span {
+  font-size: 16px;
+  opacity: 0.6;
+  display: block;
+}
+
+.realtime-search .product p {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.5;
+}
