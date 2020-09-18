@@ -71,11 +71,17 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 
 ### Navigation To-Do
 
-- Hide/Reveal Navigation
-- Add Menu Icon
-- NavBar Dark/Light Theme
+- Hide/Reveal NavLeft Navigation
+- Pages for Mobile Navigation
+- App Dark/Light Theme
 - Loading Component between Apps
-- Add Home Styling Header
+- NavTop AppTitle
+- Search Page
+- Arcade Page
+- Apps Page
+- Games Page
+- Hover info Desktop
+- Mobile Route Click App Info
 - Animate Routes
 - React Suspense
 - React.lazy for Code Splitting
