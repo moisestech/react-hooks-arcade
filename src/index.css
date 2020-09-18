@@ -56,28 +56,113 @@ ul {
   align-items: center;
 }
 
-.app-body h1 {
-  color: black;
-}
-
-/* NAV BAR */
-
-.navbar {
-  max-width: 200px;
-  min-width: 200px;
-  font-size: 16px;
-  flex: 1;
-  flex-direction: column;
+/* APP BODY - HOME */
+.app-body .home-feed {
   display: flex;
-  justify-content: start;
-  font-weight: bold;
-  height: 100vh;
-  background: white;
-  border-right: 1px solid black;
-  overflow: scroll;
+  align-items: center;
+  flex-direction: column;
 }
 
-.navbar h1 {
+.app-body ul.home-feed {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 90%;
+  flex: 1;
+  margin: 0 10% 5px 10%;
+}
+
+.app-body ul.home-feed li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.app-body ul.home-feed li a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+}
+
+.app-body ul.home-feed li a span.icon {
+  font-size: 2.5em;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+/* NAVBAR - BOTTOM - NAV-INFO */
+
+.app-body ul.home-feed ul.nav-app-info {
+  border-bottom: 1px solid lightgray;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-bottom: 5px;
+}
+
+.app-body ul.home-feed ul.nav-app-info li {
+  display: flex;
+  flex-direction: flex-start;
+  flex: 1;
+}
+
+.app-body ul.home-feed ul.nav-app-info li.tag {
+  font-size: 0.6em;
+  font-weight: bold;
+  color: gray;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.app-body ul.home-feed ul.nav-app-info li.title {
+  font-size: 1.1em;
+  color: black;
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.app-body ul.home-feed ul.nav-app-info li.info {
+  font-size: 0.7em;
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  /* padding: 2px 0 0 0; */
+}
+
+/* NAV BAR  - LEFT */
+.navbar .navleft {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .navleft {
+    max-width: 200px;
+    min-width: 200px;
+    font-size: 16px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    height: 100vh;
+    background: white;
+    border-right: 1px solid black;
+    overflow: scroll;
+  }
+}
+
+.navbar .navleft h1 {
   color: black;
   font-size: 1.5em;
   line-height: 1;
@@ -86,37 +171,37 @@ ul {
   border-bottom: 1px solid lightgray;
 }
 
-.navbar h1:hover {
+.navbar .navleft h1:hover {
   color: #0185fe;
 }
 
 /* LOGO HEADER */
 
-.navbar > a:first-child {
+.navbar .navleft > a:first-child {
   display: flex;
   flex-direction: column;
   min-height: 115px;
 }
 
-.navbar > a:first-child .app-list-header {
+.navbar .navleft > a:first-child .app-list-header {
   text-transform: uppercase;
   color: #0185fe;
   font-size: 0.7em;
   margin: 10px;
 }
 
-.navbar > a:first-child.is-active .app-list-header {
+.navbar .navleft > a:first-child.is-active .app-list-header {
   color: white;
 }
 
-.navbar > a {
+.navbar .navleft > a {
   padding: 0px 10px 0px 0px;
   display: flex;
   flex-direction: row;
   min-height: 70px;
 }
 
-.navbar > a .icon {
+.navbar .navleft > a .icon {
   width: 50px;
   font-size: 2em;
   display: flex;
@@ -124,14 +209,14 @@ ul {
   align-items: center;
 }
 
-.navbar > a .nav-app-info {
+.navbar .navleft > a .nav-app-info {
   border-bottom: 1px solid lightgray;
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 
-.navbar > a .nav-app-info .title {
+.navbar .navleft > a .nav-app-info .title {
   display: flex;
   align-items: start;
   font-size: 0.9em;
@@ -140,7 +225,7 @@ ul {
   color: black;
 }
 
-.navbar > a .nav-app-info .info {
+.navbar .navleft > a .nav-app-info .info {
   font-size: 0.7em;
   font-weight: normal;
   margin-bottom: 10px;
@@ -149,184 +234,215 @@ ul {
 
 /* NAV BAR HOVER */
 
-.navbar > a:hover {
+.navbar .navleft > a:hover {
   background: ghostwhite;
   transition: 0.3s ease all;
 }
 
-.navbar > a:hover .nav-app-info .title {
+.navbar .navleft > a:hover .nav-app-info .title {
   color: black;
 }
 
-.navbar > a:hover .nav-app-info .info {
+.navbar .navleft > a:hover .nav-app-info .info {
   color: gray;
 }
 
 /* NAV BAR ACTIVE HOVER */
 
-.navbar > a.is-active:hover {
+.navbar .navleft > a.is-active:hover {
   background: #0185fe;
   transition: 0.3s ease all;
 }
 
-.navbar > a.is-active:hover .nav-app-info .title {
+.navbar .navleft > a.is-active:hover .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active:hover .nav-app-info .info {
+.navbar .navleft > a.is-active:hover .nav-app-info .info {
   color: lightgray;
 }
 
 /* NAV BAR IS ACTIVE */
 
-.navbar > a.is-active {
+.navbar .navleft > a.is-active {
   background: #0185fe;
 }
 
-.navbar > a.is-active .nav-app-info .title {
+.navbar .navleft > a.is-active .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active .nav-app-info .info {
+.navbar .navleft > a.is-active .nav-app-info .info {
   color: lightgray;
+}
+
+/* NAV - BAR - BOTTOM */
+
+.navbar-bottom {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  height: 100px;
+  flex: 1;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  backdrop-filter: blur(25px);
+}
+
+.navbar-bottom .link {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-top: 1px solid gray;
+}
+
+.navbar-bottom span {
+  font-weight: normal;
+  font-size: 0.8em;
+  padding-top: 10px;
 }
 
 /* NAV BAR - POMODORO */
 
-.navbar > a.is-active.pomodoro {
+.navbar .navleft > a.is-active.pomodoro {
   background: #87d7cc;
 }
 
-.navbar > a.is-active.pomodoro .nav-app-info .title {
+.navbar .navleft > a.is-active.pomodoro .nav-app-info .title {
   color: black;
 }
 
-.navbar > a.is-active.pomodoro .nav-app-info .info {
+.navbar .navleft > a.is-active.pomodoro .nav-app-info .info {
   color: gray;
 }
 
 /* NAV BAR — MARKDOWN EDITOR */
 
-.navbar > a.is-active.markdown-editor {
+.navbar .navleft > a.is-active.markdown-editor {
   background: #eff1f5;
 }
 
-.navbar > a.is-active.markdown-editor .nav-app-info .title {
+.navbar .navleft > a.is-active.markdown-editor .nav-app-info .title {
   color: black;
 }
 
-.navbar > a.is-active.markdown-editor .nav-app-info .info {
+.navbar .navleft > a.is-active.markdown-editor .nav-app-info .info {
   color: gray;
 }
 
 /* NAV BAR - HIGHLIGHT TABS */
 
-.navbar > a.is-active.highlight-tabs {
+.navbar .navleft > a.is-active.highlight-tabs {
   background: #634cec;
 }
 
-.navbar > a.is-active.highlight-tabs .nav-app-info .title {
+.navbar .navleft > a.is-active.highlight-tabs .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active.highlight-tabs .nav-app-info .info {
+.navbar .navleft > a.is-active.highlight-tabs .nav-app-info .info {
   color: lightgray;
 }
 
 /* NAV BAR - PAPER ROCK SCISSORS */
 
-.navbar > a.is-active.paper-rock-scissors {
+.navbar .navleft > a.is-active.paper-rock-scissors {
   background: #478aef;
 }
 
-.navbar > a.is-active.paper-rock-scissors .nav-app-info .title {
+.navbar .navleft > a.is-active.paper-rock-scissors .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active.paper-rock-scissors .nav-app-info .info {
+.navbar .navleft > a.is-active.paper-rock-scissors .nav-app-info .info {
   color: lightgray;
 }
 
 /* NAV BAR - MOVING BOXES ZELDA */
 
-.navbar > a.is-active.moving-boxes-zelda {
+.navbar .navleft > a.is-active.moving-boxes-zelda {
   background: rgba(43, 159, 75, 1);
 }
 
-.navbar > a.is-active.moving-boxes-zelda .nav-app-info .title {
+.navbar .navleft > a.is-active.moving-boxes-zelda .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active.moving-boxes-zelda .nav-app-info .info {
+.navbar .navleft > a.is-active.moving-boxes-zelda .nav-app-info .info {
   color: lightgray;
 }
 
 /* NAV BAR - INFINITE IMAGE GALLERY */
 
-.navbar > a.is-active.infinite-image-gallery {
+.navbar .navleft > a.is-active.infinite-image-gallery {
   background: #dcdcdc;
 }
 
-.navbar > a.is-active.infinite-image-gallery .nav-app-info .title {
+.navbar .navleft > a.is-active.infinite-image-gallery .nav-app-info .title {
   color: black;
 }
 
-.navbar > a.is-active.infinite-image-gallery .nav-app-info .info {
+.navbar .navleft > a.is-active.infinite-image-gallery .nav-app-info .info {
   color: gray;
 }
 
 /* NAV BAR - TRIVIA */
 
-.navbar > a.is-active.trivia {
+.navbar .navleft > a.is-active.trivia {
   background: #c7e8d9;
 }
 
-.navbar > a.is-active.trivia .nav-app-info .title {
+.navbar .navleft > a.is-active.trivia .nav-app-info .title {
   color: black;
 }
 
-.navbar > a.is-active.trivia .nav-app-info .info {
+.navbar .navleft > a.is-active.trivia .nav-app-info .info {
   color: gray;
 }
 
 /* NAV BAR - AUTHENTICATION */
 
-.navbar > a.is-active.authentication {
+.navbar .navleft > a.is-active.authentication {
   background-color: #104826;
 }
 
-.navbar > a.is-active.authentication .nav-app-info .title {
+.navbar .navleft > a.is-active.authentication .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active.authentication .nav-app-info .info {
+.navbar .navleft > a.is-active.authentication .nav-app-info .info {
   color: lightgray;
 }
 
 /* NAV BAR - WEB SPEECH TIMERS */
 
-.navbar > a.is-active.web-speech-timers {
+.navbar .navleft > a.is-active.web-speech-timers {
   background: #1f1f1f;
 }
 
-.navbar > a.is-active.web-speech-timers .nav-app-info .title {
+.navbar .navleft > a.is-active.web-speech-timers .nav-app-info .title {
   color: white;
 }
 
-.navbar > a.is-active.web-speech-timers .nav-app-info .info {
+.navbar .navleft > a.is-active.web-speech-timers .nav-app-info .info {
   color: lightgray;
 }
 
 /* NAV BAR - CALENDAR PICKER */
 
-.navbar > a.is-active.calendar-picker {
+.navbar .navleft > a.is-active.calendar-picker {
   background: #d6e3f8;
 }
 
-.navbar > a.is-active.calendar-picker .nav-app-info .title {
+.navbar .navleft > a.is-active.calendar-picker .nav-app-info .title {
   color: black;
 }
 
-.navbar > a.is-active.calendar-picker .nav-app-info .info {
+.navbar .navleft > a.is-active.calendar-picker .nav-app-info .info {
   color: gray;
 }
