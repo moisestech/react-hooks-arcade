@@ -401,6 +401,7 @@ ul {
 
 @media screen and (max-width: 991px) {
   .navbar-bottom {
+    background: rgba(255, 255, 255, 0.5);
     position: fixed;
     display: flex;
     bottom: 0;
