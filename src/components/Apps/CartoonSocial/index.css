@@ -10,7 +10,7 @@
   margin-bottom: 40px;
 }
 
-.cartoon-social ul {
+.cartoon-social ul.characters {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -21,11 +21,11 @@
   width: 80%;
 }
 
-.cartoon-social li {
+.cartoon-social > li {
   list-style: none;
 }
 
-.cartoon-social li:hover {
+.cartoon-social > li:hover {
   background-color: rgba(0, 0, 0, 0.03);
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -36,16 +36,16 @@
   margin-bottom: 5px;
 }
 
-.cartoon-social li .char-description {
+.cartoon-social > li .char-description {
   padding: 10px;
 }
 
-.cartoon-social li .char-name {
+.cartoon-social > li .char-name {
   font-size: 1em;
   font-weight: bold;
 }
 
-.cartoon-social li .char-info {
+.cartoon-social > li .char-info {
   font-size: 0.7em;
   margin-top: 5px;
 }
