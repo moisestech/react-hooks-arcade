@@ -36,7 +36,7 @@ export default function CartoonSocial() {
   return (
     <div className="cartoon-social app-body">
       <h1>Cartoon Social: Rick and Morty Characters</h1>
-      <ul>
+      <ul className="characters">
         {characters.map((character) => (
           <li key={character.id}>
             <img src={character.image} alt={character.name} />
