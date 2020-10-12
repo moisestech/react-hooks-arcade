@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28a020e6-12ea-4c99-9872-f27429ec6ff3/deploy-status)](https://app.netlify.com/sites/react-hooks-arcade/deploys)
+
 # React Hooks Arcade
 
 React Hooks Arcade - showcasing a variety of application interactivity with React Hooks.
@@ -102,3 +104,4 @@ React Hooks Arcade - showcasing a variety of application interactivity with Reac
 - React.lazy for Code Splitting
 - Add Netlify Badge
 - Add React 17 transform-jsx runtime automatic
+- Optimize assets in Gdrive
