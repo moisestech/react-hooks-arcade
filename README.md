@@ -1,8 +1,18 @@
 # React Hooks Arcade
 
-React Hooks Arcade - showcasing a variety of application interactivity.
+React Hooks Arcade - showcasing a variety of application interactivity with React Hooks.
 
-# Arcade Apps
+## ⚙ Features
+
+- React 17
+- React RouterV6
+- React Hooks
+- ES8
+- RouterV6
+- PropTypes
+- Light/Dark Theme
+
+## 👁️‍🗨️ Project Preview
 
 - **Pomodoro** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Pomodoro) | [View Demo]() Coming Soon!
 - **Markdown Editor** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Markdown%20Editor) | [View Demo]() Coming Soon!
@@ -15,24 +25,24 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 - **Web Speech and Timers** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/Web%20Speech%20and%20Timers) | [View Demo]() Coming Soon!
 - **Calendar Picker** [Learn More](https://github.com/moisestech/react-hooks-arcade/tree/master/src/components/Apps/CalendarPicker) | [View Demo]() Coming Soon!
 
-## URL Tree
+## 🗺 URL Tree
 
 ```bash
-├── / #Home
-├── /authentication #Authentication
-├── /calendar-picker #Calendar Picker
-├── /highlight-tabs #Highlight Tabs
-├── /infinite-image-gallery/ #Infinite Image Gallery
-├── /markdown-editor #Markdown Editor
-├── /moving-boxes-zelda #Moving Boxes, Zelda
-├── /paper-rock-scissors #Paper, Rock, Scissors
-├── /pomodoro #Pomodoro
-├── /trivia #Trivia
-├── /web-speech-timers #Web Speech Timers
-└── /* #404
+├── /home                       #Home
+├── /authentication             #Authentication
+├── /calendar-picker            #Calendar Picker
+├── /highlight-tabs             #Highlight Tabs
+├── /infinite-image-gallery/    #Infinite Image Gallery
+├── /markdown-editor            #Markdown Editor
+├── /moving-boxes-zelda         #Moving Boxes, Zelda
+├── /paper-rock-scissors        #Paper, Rock, Scissors
+├── /pomodoro                   #Pomodoro
+├── /trivia                     #Trivia
+├── /web-speech-timers          #Web Speech Timers
+└── /*                          #404
 ```
 
-# Application Tree
+## 🌿 Application Tree
 
 ```bash
 ├── README.md
@@ -69,7 +79,12 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 └── webpack.config.js
 ```
 
-### Navigation To-Do
+## ⛰️ Roadmap
+
+- Image fade in loading
+- More robust UI experience for more apps
+
+## 📝 Navigation Todos
 
 - Hide/Reveal NavLeft Navigation
 - Pages for Mobile Navigation
@@ -85,3 +100,5 @@ React Hooks Arcade - showcasing a variety of application interactivity.
 - Animate Routes
 - React Suspense
 - React.lazy for Code Splitting
+- Add Netlify Badge
+- Add React 17 transform-jsx runtime automatic
