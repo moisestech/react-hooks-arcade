@@ -98,9 +98,8 @@ React Hooks Arcade - showcasing a variety of application interactivity with Reac
 - Games Page
 - Hover info Desktop
 - Mobile Route Click App Info
-- Animate Routes
+- Animate Routes with [CSS Transition Group](http://reactcommunity.org/react-transition-group/css-transition)
 - React Suspense
 - React.lazy for Code Splitting
-- Add Netlify Badge
-- Add React 17 transform-jsx runtime automatic
 - Optimize assets in Gdrive
+- Hover Animation on App [CSS Solution](https://codepen.io/QDeltaE/pen/VWGYOB)
