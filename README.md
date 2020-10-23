@@ -7,10 +7,9 @@ React Hooks Arcade - showcasing a variety of application interactivity with Reac
 ## ⚙ Features
 
 - React 17
-- React RouterV6
+- React Router v5
 - React Hooks
 - ES8
-- RouterV6
 - PropTypes
 - Light/Dark Theme
 
@@ -30,7 +29,7 @@ React Hooks Arcade - showcasing a variety of application interactivity with Reac
 ## 🗺 URL Tree
 
 ```bash
-├── /home                       #Home
+├── /                          #Home
 ├── /authentication             #Authentication
 ├── /calendar-picker            #Calendar Picker
 ├── /highlight-tabs             #Highlight Tabs
