@@ -5,7 +5,8 @@ export default [
     title: "Pomodoro",
     icon: "🕒",
     info: "Dynamic Timer",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/Pomodoro/public/pomodoro.gif",
   },
   {
@@ -14,7 +15,8 @@ export default [
     title: "Markdown Editor",
     icon: "💻",
     info: "Text Editor",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/MarkdownEditor/public/markdown-editor.gif",
   },
   {
@@ -23,7 +25,8 @@ export default [
     title: "Highlight Tabs",
     icon: "🎫",
     info: "Web Browser",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/HighlightTabs/public/highlight-tabs.gif",
   },
   {
@@ -32,7 +35,8 @@ export default [
     title: "Paper Rock Scissors",
     icon: "✂️",
     info: "Classic Game",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/PaperRockScissors/public/paper-rock-scissors.gif",
   },
   {
@@ -41,7 +45,8 @@ export default [
     title: "Adventure Link",
     icon: "⚔️",
     info: "Open World Game",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/AdventureLink/public/adventure-link.gif",
   },
   {
@@ -50,8 +55,9 @@ export default [
     title: "Infinite Image Gallery",
     icon: "🖼️",
     info: "Photo Viewer",
-    img:
-      "https://github.com/moisestech/react-hooks-arcade/tree/master/src/components/Apps/InfiniteImageGallery/public/infinite_gallery.gif",
+    imgStatic: "",
+    imgGif:
+      "https://raw.github.com/moisestech/react-hooks-arcade/master/src/components/Apps/InfiniteImageGallery/public/infinite_gallery.gif",
   },
   {
     to: "/trivia",
@@ -59,7 +65,8 @@ export default [
     title: "Trivia",
     icon: "📖",
     info: "Quiz and Knowledge",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/Trivia/public/trivia.gif",
   },
   {
@@ -68,7 +75,8 @@ export default [
     title: "Authentication",
     icon: "🔒",
     info: "Login Application",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/Authentication/public/authentication.gif",
   },
   {
@@ -77,7 +85,8 @@ export default [
     title: "Web Speech Timers",
     icon: "💬",
     info: "Chat and messaging",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/WebSpeechTimers/public/web-speech-timers.gif",
   },
   {
@@ -86,7 +95,8 @@ export default [
     title: "Calendar Picker",
     icon: "🗓️",
     info: "Scheduling & Time",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/CalendarPicker/public/calendar-picker.gif",
   },
   {
@@ -95,7 +105,8 @@ export default [
     title: "Animated Chat",
     icon: "🤖",
     info: "interactive, social",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/AnimatedChat/public/animated-chat.gif",
   },
   {
@@ -104,7 +115,8 @@ export default [
     title: "MultiForm",
     icon: "📱",
     info: "forms and input",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/MultiForm/public/multiform.gif",
   },
   {
@@ -113,7 +125,8 @@ export default [
     title: "Memory Game",
     icon: "🃏",
     info: "Card game",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/MemoryGame/public/memory-game.gif",
   },
   {
@@ -122,7 +135,8 @@ export default [
     title: "Drag Drop Match",
     icon: "📦",
     info: "card game",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/DragDropMatch/public/dragDropMatch.gif",
   },
   {
@@ -131,7 +145,8 @@ export default [
     title: "Web Browser",
     icon: "🌐",
     info: "Web surfing",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/Browser/public/browser-iframe.gif",
   },
   {
@@ -140,7 +155,8 @@ export default [
     title: "Real Time Search",
     icon: "🔍",
     info: "Search Engine",
-    img:
+    imgStatic: "",
+    imgGif:
       "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/RealTimeSearch/public/realtime-search.gif",
   },
   {
@@ -149,7 +165,8 @@ export default [
     title: "Chart Weather",
     icon: "☀️",
     info: "Scheduling & Time",
-    img: "",
+    imgStatic: "",
+    imgGif: "",
   },
   {
     to: "/cartoon-social",
@@ -157,6 +174,7 @@ export default [
     title: "Cartoon Social",
     icon: "✌️",
     info: "Contact & Messaging",
-    img: "",
+    imgStatic: "",
+    imgGif: "",
   },
 ];
