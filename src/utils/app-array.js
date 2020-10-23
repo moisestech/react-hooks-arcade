@@ -50,7 +50,8 @@ export default [
     title: "Infinite Image Gallery",
     icon: "🖼️",
     info: "Photo Viewer",
-    img: "",
+    img:
+      "https://github.com/moisestech/react-hooks-arcade/tree/master/src/components/Apps/InfiniteImageGallery/public/infinite_gallery.gif",
   },
   {
     to: "/trivia",
@@ -68,7 +69,7 @@ export default [
     icon: "🔒",
     info: "Login Application",
     img:
-      "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/Authentication/public/images/gandalf.png",
+      "https://raw.githubusercontent.com/moisestech/react-hooks-arcade/master/src/components/Apps/Authentication/public/authentication.gif",
   },
   {
     to: "/web-speech-timers",
