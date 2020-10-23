@@ -15,19 +15,16 @@ React Hooks Arcade - showcasing a variety of application interactivity with Reac
 
 ## 👁️‍🗨️ Project Preview
 
-| **Arcade Apps**               | **Github Repo**                                                                                                          | **View Demo**                          |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
-| 🕒 **Pomodoro**               | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Pomodoro">Learn More</a>                           | <a href="">Coming Soon!</a>            |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
-
-|
-| 💻 **Markdown Editor** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Markdown%20Editor">Learn More</a> | <a href="">Coming Soon!</a> |
-| ✂️ **Paper Rock Scissors** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Paper%20Rock%20Scissors">Learn More</a> | <a href="">Coming Soon!</a> |
-| ⚔️ **Adventure Link** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Moving%20Boxes%20and%20Zelda">Learn More</a> | <a href="">Coming Soon!</a> |
-| 🖼️ **Infinite Image Gallery** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Infinite%20Image%20Gallery">Learn More</a> | <a href="">Coming Soon!</a> |
-| 📖 **Trivia** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Trivia">Learn More</a> | <a href="">Coming Soon!</a> |
-| 💬 **Web Speech and Timers** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Web%20Speech%20and%20Timers">Learn More</a> | <a href="">Coming Soon!</a> |
-| 🗓️ **Calendar Picker** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/src/components/Apps/CalendarPicker">Learn More</a> | <a href="">Coming Soon!</a> |
+| **Arcade Apps**               | **Github Repo**                                                                                                          | **View Demo**               |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
+| 🕒 **Pomodoro**               | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Pomodoro">Learn More</a>                           | <a href="">Coming Soon!</a> |
+| 💻 **Markdown Editor**        | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Markdown%20Editor">Learn More</a>                  | <a href="">Coming Soon!</a> |
+| ✂️ **Paper Rock Scissors**    | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Paper%20Rock%20Scissors">Learn More</a>            | <a href="">Coming Soon!</a> |
+| ⚔️ **Adventure Link**         | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Moving%20Boxes%20and%20Zelda">Learn More</a>       | <a href="">Coming Soon!</a> |
+| 🖼️ **Infinite Image Gallery** | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Infinite%20Image%20Gallery">Learn More</a>         | <a href="">Coming Soon!</a> |
+| 📖 **Trivia**                 | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Trivia">Learn More</a>                             | <a href="">Coming Soon!</a> |
+| 💬 **Web Speech and Timers**  | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/Web%20Speech%20and%20Timers">Learn More</a>        | <a href="">Coming Soon!</a> |
+| 🗓️ **Calendar Picker**        | <a href="https://github.com/moisestech/react-hooks-arcade/tree/master/src/components/Apps/CalendarPicker">Learn More</a> | <a href="">Coming Soon!</a> |
 
 ## 🗺 URL Tree
 
