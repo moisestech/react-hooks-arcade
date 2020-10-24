@@ -1,8 +1,8 @@
-import * as React from "react";
+import { useState } from "react";
 import PropTypes from "prop-types";
 
 export default function Tab({ children }) {
-  const [highlightStyle, setHighlightStyle] = React.useState({
+  const [highlightStyle, setHighlightStyle] = useState({
     left: 0,
     opacity: 0,
   });
