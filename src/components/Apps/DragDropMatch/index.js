@@ -1,5 +1,3 @@
-import * as React from "react";
-
 export default function DragDropMatch(props) {
   return (
     <div className="drag-drop-match app-body">
