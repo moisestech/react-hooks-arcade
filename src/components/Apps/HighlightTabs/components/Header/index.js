@@ -1,8 +1,7 @@
-import * as React from "react";
 import { NavLink } from "react-router-dom";
 import Tab from "../Tab";
 
-export default function TabList(props) {
+export default function TabList() {
   return (
     <div className="tabs">
       <Tab>
