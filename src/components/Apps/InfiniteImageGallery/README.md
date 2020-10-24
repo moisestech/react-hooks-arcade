@@ -4,7 +4,7 @@ We'll build an image gallery by pulling images from [Unsplash](https://unsplash.
 Infinite gallery infinite scroll.
 
 [View Demo]()
-<img width="400" src="">
+<img width="400" src="https://raw.github.com/moisestech/react-hooks-arcade/master/src/components/Apps/InfiniteImageGallery/public/infinite_gallery.gif">
 
 # React skills used in this app
 
