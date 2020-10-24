@@ -1,4 +1,11 @@
 const path = require("path");
+const webpack = require("webpack");
+const dotenv = require("dotenv");
+
+// const dotenv = require("dotenv").config({
+//   path: path.join(__dirname, ".env"),
+// });
+
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
@@ -23,6 +30,12 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [{ from: "./public/_redirects" }],
+    }),
+    new webpack.ProvidePlugin({
+      process: "process/browser",
+    }),
+    new webpack.DefinePlugin({
+      "process.env": JSON.stringify(dotenv.config().parsed),
     }),
   ],
   devServer: {
