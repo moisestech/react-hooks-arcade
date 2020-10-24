@@ -2,7 +2,7 @@
   "name": "react-hooks-arcade",
   "version": "1.0.0",
   "description": "React Hooks Arcade - showcasing a variety of application concepts through interactivity",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "NODE_ENV='production' webpack"
@@ -10,10 +10,14 @@
   "babel": {
     "presets": [
       "@babel/preset-env",
-      "@babel/preset-react"
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
     ],
     "plugins": [
-      "@babel/plugin-proposal-class-properties",
       "@babel/syntax-dynamic-import",
       "@babel/plugin-transform-runtime"
     ]
@@ -24,9 +28,12 @@
   },
   "keywords": [
     "ReactJS",
-    "ReactHooks",
-    "Arcade",
-    "ES6"
+    "React Hooks",
+    "React Arcade",
+    "useState",
+    "useEffect",
+    "useCallback",
+    "ES8"
   ],
   "author": "Moises Sanabria",
   "license": "ISC",
@@ -35,30 +42,34 @@
   },
   "homepage": "https://github.com/moisestech/react-hooks-arcade#readme",
   "dependencies": {
-    "copy-webpack-plugin": "^6.1.0",
     "marked": "^1.1.1",
-    "npm": "6.14.8",
+    "path": "^0.12.7",
     "prop-types": "15.7.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-icons": "^3.11.0",
+    "react-infinite-scroll-component": "^5.1.0",
     "react-markdown": "^4.3.1",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@babel/core": "",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/core": "^7.11.4",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.1.0",
     "css-loader": "^4.2.2",
+    "dotenv": "^8.2.0",
     "file-loader": "^6.1.0",
     "html-webpack-plugin": "^4.4.1",
+    "process": "^0.11.10",
+    "react-transition-group": "^4.4.1",
     "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "3.3.12",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
 }
